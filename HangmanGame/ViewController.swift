@@ -10,7 +10,6 @@ import UIKit
 
 let words = ["RAGHAV", "PRASAD", "SWIFT", "METALLICA", "PATIENCE"]
 let word = words[Int(arc4random_uniform(UInt32(words.count)))]
-
 let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 class ViewController: UIViewController {
